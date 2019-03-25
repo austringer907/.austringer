@@ -5,6 +5,7 @@ alias shutdown='sudo shutdown now'
 alias e=exit
 alias c=clear
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
+alias mvmup="~/.bin/.updt.sh"
 
 #specif. wal
 alias wala="wal -i ~/Desktop"
