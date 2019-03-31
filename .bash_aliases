@@ -8,9 +8,9 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
 alias mvmup="~/.bin/.updt.sh"
 
 #specif. wal
-alias wala="wal -i ~/Desktop"
+alias wala="wal -i ~/Documents/pwp"
 alias wali="wal -i"
-alias walf="wali ~/Desktop/RBG4.jpg"
+alias walf="wali ~/Documents/pwp/RBG4.jpg"
 
 #ssh aliases
 alias sshmvm="ssh austringer-mvm@192.168.1.209 -p 2218"
