@@ -4,14 +4,20 @@ alias update='sudo apt update && sudo apt upgrade'
 alias off='sudo shutdown now'
 alias e=exit
 alias c=clear
-alias dot='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
+alias dotbash='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
+alias dotpwp='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
 alias restart='sudo reboot'
+alias sobash='source .bashrc'
 
 #specif wal
-alias wala='wal -i ~/Documents/pwp'
 alias wali='wal -i'
-alias walf='wali ~/Documents/pwp/RBG4.jpg'
-alias walg='wal -i ~/Documents/pwp/RBG10.jpg'
+alias wal1='wal -i ~/.pwp/rbg/RBG4.jpg'
+alias wal2='wal -i ~/.pwp/rbg/RBG10.jpg'
+alias wal3='wal -i ~/.pwp/min/min3.jpg'
+alias walmin='wal -i ~/.pwp/min'
+alias walrbg='wal -i ~/.pwp/rbg'
+alias walcbg='wal -i ~/.pwp/cbg'
+alias walscbg='wal -i ~/.pwp/scbg'
 
 #ssh aliases
 alias sshmvm="ssh austringer-mvm@192.168.1.209 -p 2218"
