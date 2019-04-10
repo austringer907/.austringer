@@ -10,7 +10,7 @@ alias restart='sudo reboot'
 alias sobash='source .bashrc'
 
 #specif wal
-alias wali='wal -i'
+alias wali='wal -i ~/.pwp/'
 alias wal1='wal -i ~/.pwp/rbg/RBG4.jpg'
 alias wal2='wal -i ~/.pwp/rbg/RBG10.jpg'
 alias wal3='wal -i ~/.pwp/min/min3.jpg'
