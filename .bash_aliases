@@ -8,7 +8,6 @@ alias dotbash='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
 alias dotpwp='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
 alias restart='sudo reboot'
 alias sobash='source .bashrc'
-alias commit='commit -m'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
