@@ -4,8 +4,8 @@ alias update='sudo apt update && sudo apt upgrade'
 alias off='sudo shutdown now'
 alias e=exit
 alias c=clear
-alias dotbash='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
-alias dotpwp='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
+alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
+alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
 alias restart='sudo reboot'
 alias sobash='source .bashrc'
 
