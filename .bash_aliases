@@ -22,6 +22,7 @@ alias walmin='wal -i ~/.pwp/min/'
 alias walrbg='wal -i ~/.pwp/rbg'
 alias walcbg='wal -i ~/.pwp/cbg'
 alias walscbg='wal -i ~/.pwp/scbg'
+alias walmbg='wal -i ~/.pwp/mbg'
 
 #ssh aliases
 alias sshmvm="ssh austringer-mvm@192.168.1.209 -p 2218"
