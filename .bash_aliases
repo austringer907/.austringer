@@ -8,6 +8,8 @@ alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
 alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
 alias restart='sudo reboot'
 alias sobash='source .bashrc'
+alias autoremove='sudo apt autoremove'
+alias batt='acpi'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
