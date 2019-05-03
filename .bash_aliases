@@ -10,6 +10,7 @@ alias restart='sudo reboot'
 alias sobash='source .bashrc'
 alias autoremove='sudo apt autoremove'
 alias batt='acpi'
+alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
