@@ -128,5 +128,5 @@ cat ~/.cache/wal/sequences
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh 
 
-
+#This was added for pywal for new terminals
 export PATH="${PATH}:${HOME}/.local/bin/"
