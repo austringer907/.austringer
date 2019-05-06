@@ -13,6 +13,7 @@ alias batt='acpi'
 alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
 
 #vim aliases
+alias vim='sudo vim'
 alias vimbashrc='sudo vim ~/.bashrc'
 alias vimprofile='sudo vim ~/.bash_profile'
 alias vimaliases='sudo vim ~/.bash_aliases'
