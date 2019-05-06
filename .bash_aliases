@@ -12,6 +12,11 @@ alias autoremove='sudo apt autoremove'
 alias batt='acpi'
 alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
 
+#vim aliases
+alias vimbashrc='sudo vim ~/.bashrc'
+alias vimprofile='sudo vim ~/.bash_profile'
+alias vimaliases='sudo vim ~/.bash_aliases'
+
 #specif wal
 alias wali='wal -i ~/.pwp/'
 alias wal1='wal -i ~/.pwp/rbg/RBG4.jpg'
