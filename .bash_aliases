@@ -1,16 +1,21 @@
 #gen aliases
 alias aqp=/usr/local/bin/asciiquarium
 alias update='sudo apt update && sudo apt upgrade'
+alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
 alias off='sudo shutdown now'
 alias e=exit
 alias c=clear
 alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
 alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
 alias restart='sudo reboot'
-alias sobash='source .bashrc'
 alias autoremove='sudo apt autoremove'
 alias batt='acpi'
-alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
+alias showip='ip addr'
+
+#source aliases
+alias sobash='source .bashrc'
+alias soaliases='source .bash_aliases'
+
 
 #vim aliases
 alias vim='sudo vim'
@@ -32,8 +37,6 @@ alias walrbg='wal -i ~/.pwp/rbg'
 alias walcbg='wal -i ~/.pwp/cbg'
 alias walscbg='wal -i ~/.pwp/scbg'
 alias walmbg='wal -i ~/.pwp/mbg'
-
-#ssh aliases
 
 # some more ls aliases
 alias ll='ls -alF'
