@@ -12,6 +12,7 @@ alias autoremove='sudo apt autoremove'
 alias batt='acpi'
 alias showip='ip addr'
 alias showtemp='sensors'
+alias gedit='sudo gedit'
 
 #source aliases
 alias sobash='source .bashrc'
@@ -51,4 +52,5 @@ alias l='ls -CF'
 
 
 
+#checj this shiz out
 
