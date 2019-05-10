@@ -11,6 +11,7 @@ alias restart='sudo reboot'
 alias autoremove='sudo apt autoremove'
 alias batt='acpi'
 alias showip='ip addr'
+alias showtemp='sensors'
 
 #source aliases
 alias sobash='source .bashrc'
