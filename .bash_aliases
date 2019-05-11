@@ -11,7 +11,7 @@ alias restart='sudo reboot'
 alias autoremove='sudo apt autoremove'
 alias batt='acpi'
 alias showip='ip addr'
-alias showtemp='sensors'
+alias temp='sensors'
 alias gedit='sudo gedit'
 
 #source aliases
