@@ -18,6 +18,7 @@ alias gedit='sudo gedit'
 #source aliases
 alias sobash='source .bashrc'
 alias soaliases='source .bash_aliases'
+alias soprof='source .bash_profile'
 
 
 #vim aliases
