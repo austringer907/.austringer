@@ -23,9 +23,10 @@ alias soprof='source .bash_profile'
 
 #vim aliases
 alias vim='sudo vim'
-alias vimbashrc='sudo vim ~/.bashrc'
-alias vimprofile='sudo vim ~/.bash_profile'
-alias vimaliases='sudo vim ~/.bash_aliases'
+alias vimbashrc='vim ~/.bashrc'
+alias vimprofile='vim ~/.bash_profile'
+alias vimaliases='vim ~/.bash_aliases'
+alias vimxrdp.ini='vim /etc/xrdp/xrdp.ini'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
