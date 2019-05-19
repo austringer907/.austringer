@@ -106,6 +106,3 @@ fi
 
 #battery status
 acpi
-
-#Remember wal
-export PATH="${PATH}:${HOME}/.local/bin/"

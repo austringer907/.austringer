@@ -55,5 +55,13 @@ alias l='ls -CF'
 
 
 
-#checj this shiz out
+
+
+
+
+
+
+
+
+
 
