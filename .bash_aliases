@@ -15,6 +15,8 @@ alias showip='ip addr'
 alias temp='sensors'
 alias gedit='sudo gedit'
 alias rm='sudo rm'
+alias cp='sudo cp'
+alias mv='sudo mv'
 
 #source aliases
 alias sobash='source .bashrc'
