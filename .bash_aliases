@@ -20,6 +20,8 @@ alias sobash='source .bashrc'
 alias soaliases='source .bash_aliases'
 alias soprof='source .bash_profile'
 
+#service
+alias xrdpserv='/etc/init.d/xrdp'
 
 #vim aliases
 alias vim='sudo vim'
