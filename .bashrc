@@ -130,3 +130,5 @@ source ~/.cache/wal/colors-tty.sh
 
 #This was added for pywal for new terminals
 export PATH="${PATH}:${HOME}/.local/bin/"
+
+
