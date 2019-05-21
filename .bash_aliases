@@ -11,12 +11,20 @@ alias restart='sudo reboot'
 alias autoremove='sudo apt autoremove'
 alias autoclean='sudo apt autoclean'
 alias batt='acpi'
+alias gedit='sudo gedit'
+
+
+#values
 alias showip='ip addr'
 alias temp='sensors'
-alias gedit='sudo gedit'
+
+#file cmds
 alias rm='sudo rm'
 alias cp='sudo cp'
 alias mv='sudo mv'
+
+#ranger alias
+alias rr='ranger'
 
 #source aliases
 alias sobash='source .bashrc'
