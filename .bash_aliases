@@ -2,21 +2,24 @@
 alias aqp=/usr/local/bin/asciiquarium
 alias update='sudo apt update && sudo apt upgrade'
 alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
-alias off='sudo shutdown now'
 alias e=exit
 alias c=clear
-alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
-alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
-alias restart='sudo reboot'
-alias autoremove='sudo apt autoremove'
-alias autoclean='sudo apt autoclean'
-alias batt='acpi'
 alias gedit='sudo gedit'
 
+#github
+alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
+alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
+
+#system
+alias restart='sudo reboot'
+alias off='sudo shutdown now'
+alias autoremove='sudo apt autoremove'
+alias autoclean='sudo apt autoclean'
 
 #values
 alias showip='ip addr'
 alias temp='sensors'
+alias batt='acpi'
 
 #file cmds
 alias rm='sudo rm'
