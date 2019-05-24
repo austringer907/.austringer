@@ -6,6 +6,11 @@ alias e=exit
 alias c=clear
 alias gedit='sudo gedit'
 
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 #github
 alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
 alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
@@ -61,11 +66,6 @@ alias walrbg='wal -i ~/.pwp/rbg'
 alias walcbg='wal -i ~/.pwp/cbg'
 alias walscbg='wal -i ~/.pwp/scbg'
 alias walmbg='wal -i ~/.pwp/mbg'
-
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 #steam
 alias steam='/usr/bin/steam'
