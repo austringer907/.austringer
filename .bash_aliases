@@ -67,8 +67,6 @@ alias walcbg='wal -i ~/.pwp/cbg'
 alias walscbg='wal -i ~/.pwp/scbg'
 alias walmbg='wal -i ~/.pwp/mbg'
 
-#steam
-alias steam='/usr/bin/steam'
 
 
 
