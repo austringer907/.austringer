@@ -95,3 +95,6 @@ fi
 
 #battery status
 acpi
+
+sudo sensors
+
