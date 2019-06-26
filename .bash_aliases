@@ -67,6 +67,7 @@ alias walrbg='wal -i ~/.pwp/rbg'
 alias walcbg='wal -i ~/.pwp/cbg'
 alias walscbg='wal -i ~/.pwp/scbg'
 alias walmbg='wal -i ~/.pwp/mbg'
+alias waldrgn='wal -i ~/.pwp/drgn'
 
 
 
