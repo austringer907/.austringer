@@ -25,6 +25,7 @@ alias autoclean='sudo apt autoclean'
 alias showip='ip addr'
 alias temp='sensors'
 alias batt='acpi'
+alias austringer='austringer.ddns.net'
 
 #file cmds
 alias rm='sudo rm'
