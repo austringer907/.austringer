@@ -5,6 +5,7 @@ alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
 alias e=exit
 alias c=clear
 alias gedit='sudo gedit'
+alias hh='htop'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -49,6 +50,7 @@ alias vimbashrc='vim ~/.bashrc'
 alias vimprofile='vim ~/.bash_profile'
 alias vimaliases='vim ~/.bash_aliases'
 alias vimxrdp.ini='vim /etc/xrdp/xrdp.ini'
+alias vimhist='vim ~/.bash_history'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
