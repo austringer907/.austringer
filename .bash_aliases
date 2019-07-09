@@ -6,6 +6,7 @@ alias e=exit
 alias c=clear
 alias gedit='sudo gedit'
 alias hh='htop'
+alias neo1='neofetch --ascii_distro Debian'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -70,20 +71,3 @@ alias walcbg='wal -i ~/.pwp/cbg'
 alias walscbg='wal -i ~/.pwp/scbg'
 alias walmbg='wal -i ~/.pwp/mbg'
 alias waldrgn='wal -i ~/.pwp/drgn'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

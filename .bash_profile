@@ -92,9 +92,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-
-#battery status
-acpi
-
-sudo sensors
+#added
+batt
 
