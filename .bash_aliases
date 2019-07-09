@@ -35,7 +35,7 @@ alias cp='sudo cp'
 alias mv='sudo mv'
 
 #ranger alias
-alias rr='ranger'
+alias rr='sudo ranger'
 
 #source aliases
 alias sobash='source .bashrc'
