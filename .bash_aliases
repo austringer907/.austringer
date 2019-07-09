@@ -6,6 +6,7 @@ alias e=exit
 alias c=clear
 alias gedit='sudo gedit'
 alias hh='htop'
+alias nmap='sudo nmap'
 
 #Neofetch
 alias neo1='neofetch --ascii_distro Debian'
@@ -18,7 +19,7 @@ alias l='ls -CF'
 
 #github
 alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
-alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp/'
+alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp'
 
 #system
 alias restart='sudo reboot'
