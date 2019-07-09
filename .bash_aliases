@@ -6,7 +6,10 @@ alias e=exit
 alias c=clear
 alias gedit='sudo gedit'
 alias hh='htop'
+
+#Neofetch
 alias neo1='neofetch --ascii_distro Debian'
+alias neo2='neofetch --ascii_distro Arch'
 
 # some more ls aliases
 alias ll='ls -alF'
