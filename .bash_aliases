@@ -1,10 +1,11 @@
 #gen aliases
 alias aqp=/usr/local/bin/asciiquarium
 alias update='sudo apt update && sudo apt upgrade'
-alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
+alias updatedist='sudo apt update && sudo apt dist-upgrade'
 alias ee=exit
 alias cc=clear
 alias gedit='sudo gedit'
+alias ufw='sudo ufw'
 alias hh='htop'
 alias nmap='sudo nmap'
 
