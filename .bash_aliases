@@ -1,10 +1,11 @@
 #gen aliases
 alias aqp=/usr/local/bin/asciiquarium
 alias update='sudo apt update && sudo apt upgrade'
-alias updateall='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
-alias e=exit
-alias c=clear
+alias updatedist='sudo apt update && sudo apt dist-upgrade'
+alias ee=exit
+alias cc=clear
 alias gedit='sudo gedit'
+alias ufw='sudo ufw'
 alias hh='htop'
 alias nmap='sudo nmap'
 
@@ -42,9 +43,9 @@ alias mv='sudo mv'
 alias rr='sudo ranger'
 
 #source aliases
-alias sobash='source .bashrc'
-alias soaliases='source .bash_aliases'
-alias soprof='source .bash_profile'
+alias sobash='source ~/.bashrc'
+alias soaliases='source ~/.bash_aliases'
+alias soprof='source ~/.bash_profile'
 
 #service
 alias xrdpserv='/etc/init.d/xrdp'
