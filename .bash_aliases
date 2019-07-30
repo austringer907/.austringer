@@ -18,6 +18,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+#open vpn
+alias bashvpn='sudo bash openvpn/openvpn-install.sh'
+
 #github
 alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
 alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp'
