@@ -127,4 +127,4 @@ source ~/.cache/wal/colors-tty.sh
 export PATH="${PATH}:${HOME}/.local/bin/"
 
 #added 720
-neo2
+neowd1

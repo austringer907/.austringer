@@ -1,6 +1,6 @@
 #gen aliases
 alias aqp=/usr/local/bin/asciiquarium
-alias update='sudo apt update && sudo apt upgrade'
+alias up2date='sudo apt update && sudo apt upgrade'
 alias updatedist='sudo apt update && sudo apt dist-upgrade'
 alias ee=exit
 alias cc=clear
@@ -12,6 +12,7 @@ alias nmap='sudo nmap'
 #Neofetch
 alias neo1='neofetch --ascii_distro Debian'
 alias neo2='neofetch --ascii_distro Arch'
+alias neowd1='neofetch --ascii ~/art/weed1'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -20,6 +21,13 @@ alias l='ls -CF'
 
 #open vpn
 alias bashvpn='sudo bash openvpn/openvpn-install.sh'
+alias vpnlog='tail -f /var/log/openvpn.log'
+alias vpnhist='cat /var/log/openvpn.log'
+alias vpnstatus='systemctl status openvpn-server@server.service'
+alias vpnrestart='systemctl restart openvpn-server@server.service'
+alias vpnstop='systemctl stop openvpn-server@server.service'
+alias vpnstart='systemctl start openvpn-server@server.service'
+
 
 #github
 alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
@@ -54,12 +62,12 @@ alias soprof='source ~/.bash_profile'
 alias xrdpserv='/etc/init.d/xrdp'
 
 #vim aliases
-alias vim='sudo vim'
-alias vimbashrc='vim ~/.bashrc'
-alias vimprofile='vim ~/.bash_profile'
-alias vimaliases='vim ~/.bash_aliases'
-alias vimxrdp.ini='vim /etc/xrdp/xrdp.ini'
-alias vimhist='vim ~/.bash_history'
+alias vi='sudo vi'
+alias vimbashrc='vi ~/.bashrc'
+alias vimprofile='vi ~/.bash_profile'
+alias vimaliases='vi ~/.bash_aliases'
+alias vimxrdp.ini='vi /etc/xrdp/xrdp.ini'
+alias vimhist='vi ~/.bash_history'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
