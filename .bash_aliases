@@ -21,17 +21,19 @@ alias l='ls -CF'
 
 #open vpn
 alias bashvpn='sudo bash openvpn/openvpn-install.sh'
-alias vpnlog='tail -f /var/log/openvpn.log'
+alias vpnlog='sudo tail -f /var/log/openvpn.log'
+alias vpnclients='sudo tail -f /etc/openvpn/server/openvpn-status.log'
 alias vpnhist='cat /var/log/openvpn.log'
 alias vpnstatus='systemctl status openvpn-server@server.service'
 alias vpnrestart='systemctl restart openvpn-server@server.service'
 alias vpnstop='systemctl stop openvpn-server@server.service'
 alias vpnstart='systemctl start openvpn-server@server.service'
-
+alias webstart='sudo gunicorn openvpn-monitor -b 0.0.0.0:8118 --name openvpn-monitor --daemon'
+alias webstop='sudo pkill gunicorn'
 
 #github
-alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/ --work-tree=$HOME'
-alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.pwp/ --work-tree=$HOME/.pwp'
+alias bashrep='/usr/bin/git --git-dir=$HOME/.austringer/.git/ --work-tree=$HOME'
+alias pwprep='/usr/bin/git --git-dir=$HOME/.pwp/.git/ --work-tree=$HOME/.pwp'
 
 #system
 alias restart='sudo reboot'
@@ -63,11 +65,11 @@ alias xrdpserv='/etc/init.d/xrdp'
 
 #vim aliases
 alias vi='sudo vi'
-alias vimbashrc='vi ~/.bashrc'
-alias vimprofile='vi ~/.bash_profile'
-alias vimaliases='vi ~/.bash_aliases'
-alias vimxrdp.ini='vi /etc/xrdp/xrdp.ini'
-alias vimhist='vi ~/.bash_history'
+alias vibashrc='vi ~/.bashrc'
+alias viprofile='vi ~/.bash_profile'
+alias vialiases='vi ~/.bash_aliases'
+alias vixrdp.ini='vi /etc/xrdp/xrdp.ini'
+alias vihist='vi ~/.bash_history'
 
 #specif wal
 alias wali='wal -i ~/.pwp/'
