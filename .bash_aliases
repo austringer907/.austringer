@@ -71,6 +71,10 @@ alias vialiases='vi ~/.bash_aliases'
 alias vixrdp.ini='vi /etc/xrdp/xrdp.ini'
 alias vihist='vi ~/.bash_history'
 
+#pihole
+alias gravdy='pihole updateGravity'
+alias uphole='pihole updatePihole'
+
 #specif wal
 alias wali='wal -i ~/.pwp/'
 alias wal1='wal -i ~/.pwp/rbg/RBG4.jpg'
