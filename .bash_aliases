@@ -94,3 +94,5 @@ alias walscbg='wal -i ~/.pwp/scbg'
 alias walmbg='wal -i ~/.pwp/mbg'
 alias waldrgn='wal -i ~/.pwp/drgn'
 alias walscnc='wal -i ~/.pwp/scnc'
+
+#bad ass till next time
