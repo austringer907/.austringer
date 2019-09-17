@@ -65,6 +65,7 @@ alias xrdpserv='/etc/init.d/xrdp'
 
 #vim aliases
 alias vi='sudo vi'
+alias vizshalias='vi ~/.zsh_alises'
 alias vibashrc='vi ~/.bashrc'
 alias viprofile='vi ~/.bash_profile'
 alias vialiases='vi ~/.bash_aliases'
