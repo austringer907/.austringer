@@ -1,7 +1,7 @@
 #gen aliases
 alias aqp=/usr/local/bin/asciiquarium
-alias up2date='sudo apt update && sudo apt upgrade'
-alias updatedist='sudo apt update && sudo apt dist-upgrade'
+alias up2date='sudo apt update && sudo apt upgrade -y'
+alias updatedist='sudo apt update && sudo apt dist-upgrade -y'
 alias ee=exit
 alias cc=clear
 alias gedit='sudo gedit'
@@ -95,4 +95,5 @@ alias walmbg='wal -i ~/.pwp/mbg'
 alias waldrgn='wal -i ~/.pwp/drgn'
 alias walscnc='wal -i ~/.pwp/scnc'
 
-#bad ass till next time
+#bad ass till next time butt
+
